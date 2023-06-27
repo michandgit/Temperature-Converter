@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.info::before{
+    content:"";
+    background:url("./simon-berger-twukN12EN7c-unsplash.jpg") no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.89;
+    top:0px;
+    /* bottom:0px; */
+
+
+}
+.info {
+  
+
+    height: 100vh;
+    width: 100%;
+}
+
+.h {
+     text-align: center;
+    padding:10px; 
+    font-size: 70px;
+    font-weight: 600;
+    background-image:conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    background-clip: text; 
+    -webkit-background-clip: text;
+   
+}
+
+.heading {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity:2;
+}
+
+.data{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    padding:70px;
+    height:150px;
+    box-shadow: 10px 10px rgb(123, 123, 211);
+    background-image: url("./bg.jpg");
+    z-index:-6;
+
+
+}
+label{
+    color:rgb(56, 52, 52);
+    margin:10px;
+    font-size:20px
+}
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin:10px;
+    font-size:20px;
+}
+
+/* Responsive */
+@media screen and (max-width:788) {
+    *{
+        margin:0;
+        padding:0;
+    }
+   
+    input{
+        margin:5px;
+        padding:5px;
+        width:30px;
+        font-size:12px;
+
+    }
+    label{
+        margin:5px;
+        padding:5px;
+        font-size:12px;
+    }
+
+    
+}
